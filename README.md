@@ -87,4 +87,4 @@ Render/Railway free hosting, Mailtrap sandbox) — near-zero cost to demo or ado
 
 ## License
 
-MIT
+
