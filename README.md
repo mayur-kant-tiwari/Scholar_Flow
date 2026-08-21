@@ -67,14 +67,7 @@ scholarflow/
 
 ## Getting started
 
-```bash
-git clone https://github.com/<your-org>/scholarflow.git
-cd scholarflow
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env   # fill in NOTION_API_KEY, ANTHROPIC_API_KEY, MAILTRAP creds
-uvicorn app.main:app --reload
-```
+
 
 Point your Google Form / hosted form webhook at `POST /submissions`, and create
 two Notion databases — `Cases` and `Run Log` — matching the schema in
